@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap" rel="stylesheet">
+    <enlace href="https: //fonts.googleapis.com/css2? family= Inter:wght@200 & display=swap" rel="stylesheet"></enlace>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador</title>
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="barra"> 
+            <h1 class="titulo">Encriptador</h1>
+        </nav>
+    </header>
+
+    <div class="fondos">
+        <div class="gris">
+            <div class="texto1">
+                <textarea class="encriptador1" name="comentarios" placeholder="Ingrese su texto aquí"></textarea>
+            </div>
+
+            <div class="mayus">
+                <img clase="alert" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUpJREFUSEvFlYtNBDEMROc64SoBKuGoBKgErhKgEqAS0JMykZPsej9wItIqq13b47EnzkEXXocLx9cagBtJPNdl/5T0Jumr7LzPrgzgStJzCZrFAPBWEvuw5gAeJT0UaxzPIVuAYcR+V3bb4NesKYAY/EnS4BQiAHIKyQz2PQAOHyUAtNP6BiAYvZYy3Ue/HgAjjF8kYdiv7/IhY065jnaMhlClqY1Bh5ABRFFU9hHAtV+qe6aoIUYEIHtYUBpKtGe5F/QOFs1Bo7nQpH6TmpaUlYh4Fkktc2TwFwCANElEACsok+cSAwulqnBrk5cA0ibHw1J1vEGmmLoKVSiRQdTxnoNmFVYF9SqKKuB9i1zNHr+mh1NH3o3CeM2hS4fjFEA/IX3BvIch5pHtcT2bzL9dOBYPmfrxlck/WJnR7itzzywafNZc+r8C+gHAXFwZgFAHCgAAAABJRU5ErkJggg==" /> 
+                <span class="comentario">Debe ingresar letra en minuscula y sin acentos</span>
+            </div>
+
+            <div class="botones">
+                <input button id="encriptar" class="btn" type="submit" value="Encriptar" onclick="btnEncriptar()">
+
+                <input button id="desencriptar" class="btn" type="submit" value="Desencriptar" onclick="btnDesencriptar()">
+            </div>
+
+        </div>
+
+        <div class="azul">
+            <div class="texto2">
+                <textarea id= "textoEncriptado" class="encriptador2" name="comentarios" placeholder="Ningún mensaje fue encontrado"></textarea>
+            </div>
+
+            <div class="dmensaje">
+                <span>Ingrese el texto que desea encriptar o desencriptar</span>
+            </div>
+
+
+            <div class="botones">
+                <input button id="btnCopiar" class="btn" type="submit" value="Copiar">
+            </div>
+        </div>
+</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>

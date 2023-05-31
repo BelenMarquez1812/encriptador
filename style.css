@@ -1,0 +1,214 @@
+.barra {
+    background-color: #754668;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    height: 65px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.titulo {    
+    display: flex;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex: wrap;
+    background: #3E4860;
+}
+
+
+.fondos {
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.gris {
+    display: flex;
+    flex-direction: column;
+    background: #BBB9B9;
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 1%;
+
+}
+
+.azul {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgba(175, 211, 226, 0.21);
+    padding-top: 100px;
+    padding-bottom: 1%;
+
+
+}
+
+
+.texto1 {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    background-color: #f0f0f000;
+    width: 90%;
+    height: 680px;
+    resize:none;
+    border: none;
+}
+
+
+.encriptador1 {
+    color:#000000;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.mayus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    padding-top: 26px;
+}
+
+.mayus img {
+    width: 21px; /* Ajusta el ancho de la imagen según sea necesario */
+    margin-right: 0px; /* Margen derecho para separar la imagen del comentario */
+  }
+
+
+
+.encriptador2 {
+    color:#ffffff;
+    background-image: url(hh.svg);
+    opacity: 0.5; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 80%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.encriptador2::placeholder {    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.dmensaje {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 15px;
+    padding-top: 26px;
+
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    padding-bottom: 1%; 
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    width: 150px;
+    height: 50px;
+    background: #969696;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #000000;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background: #754668;
+
+}
+
+@media screen and (max-width:740px) {
+    
+    .barra {
+        height: 60px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    .fondos {
+        flex-direction: column;
+    }
+
+    .gris {
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    
+    .azul {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 6%;
+    }
+
+    textarea {
+        height: 400px;
+    }
+    
+    
+    .encriptador1 {
+        font-size: 27px;
+    }
+      
+    .encriptador2::placeholder {    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    
+}
+
